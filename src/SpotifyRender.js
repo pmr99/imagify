@@ -13,7 +13,7 @@ const openai = new OpenAI({ apiKey: process.env.REACT_APP_APIKEY, dangerouslyAll
 
 function SpotifyRender() {
     const CLIENT_ID = '1fdbc817eca146c593ad41c217f4f1db'
-    const REDIRECT_URI = "http://localhost:3000"
+    const REDIRECT_URI = "https://imagify-pmr99s-projects.vercel.app"
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
     const RESPONSE_TYPE = "token"
     const SCOPE = 'user-read-private user-read-email user-top-read'
