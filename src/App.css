@@ -1,6 +1,59 @@
 .App {
   text-align: center;
+  color: 	white;
+  background-color: #191414;
+  height: 100%
 }
+body, #app {
+  height: 100%
+}
+
+.box {
+  border-radius: 25px;
+  margin: 8px;
+  background-color: #282828;
+}
+
+
+.image {
+  width: 75%
+}
+.song {
+  width: 22%;
+  min-width: 200px
+}
+
+.buttonviewunclicked {
+  margin-top: 8%;
+}
+
+.buttonviewclicked {
+  margin-top: 8%;
+}
+
+.logoplacement {
+  height: 300px
+}
+@media screen and (max-width: 1100px) {
+
+  .song {
+    width: fit-content;
+  }
+  .image {
+    width: fit-content;
+  }
+  .buttonviewunclicked {
+    margin-top: 0%;
+  }
+  .buttonviewclicked {
+    margin-top: 4%;
+  }
+  .logoplacement {
+    height: auto;
+    width:  80%
+  }
+}
+
 
 .App-logo {
   height: 40vmin;
