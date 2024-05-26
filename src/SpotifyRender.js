@@ -137,7 +137,8 @@ function SpotifyRender() {
             <div className= "box" style = {{height: "80%", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "Column", padding: "5%"}}>
                 <h1 style = {{paddingTop: "4px", paddingBottom: "12px"}}> <img className = "logoplacement" src  = {logo}></img></h1>
                 <h3 style ={{paddingBottom: "8px"}}>Your Listening Pattern Visualized</h3>
-                <p style = {{width: "40%", minWidth: "300px"}}> Using DALL·E 3 and Spotify's Developer tools, Imagify transforms your top listened songs into an illustration. Can you guess your favorite songs? </p>
+                <p style = {{width: "40%", minWidth: "300px", marginBottom: "2px"}}> <a href = "https://www.pradeepmanirathnam.com/code/imagify"> Learn More About How I Created Imagify </a>  </p>
+                <p style = {{width: "40%", minWidth: "300px", marginTop: "0px"}}> Using DALL·E 3 and Spotify's Developer tools, Imagify transforms your top listened songs (in the past week) into an illustration. Can you guess your favorite songs? </p>
                 <Button>  <a style = {{color: "white"}} href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}&scope=${SCOPE}`}>Login
                     to Spotify Here</a>
                 </Button>
